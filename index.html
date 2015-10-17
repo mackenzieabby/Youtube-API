@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Youtube API</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="https://apis.google.com/js/client.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+	<video autoplay loop poster="polina.jpg" id="bgvid"> <!-- Video BG Start -->
+    	<source src="video/leaves.mp4" type="video/mp4">
+	</video> <!-- Video BG END -->
+	
+	<img src="img/youtube.png" alt="" id="youtube"> <!-- Logo -->
+
+	<div class="container"> <!-- Container Start -->
+		<input  id="query" type="text">
+			<div class="button_container">
+				<input  id="search" type="submit" value="Submit">
+			</div>
+			<div class="result_container">
+			<div id="images">
+			</div>
+			<div id="search-results">
+			</div>
+			</div>
+	</div> <!-- Container END -->
+</body>
+</html>
